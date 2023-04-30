@@ -6,8 +6,8 @@
 	"version": "1.0",
 
 	"homepage": "daviddyer.me",
-	"repository": "https://github.com/davidbdyer/",
-	"bugs": "https://github.com/davidbdyer/",
+	"repository": "https://github.com/davidbdyer/PX-to-REM-nova-extension",
+	"bugs": "https://github.com/davidbdyer/PX-to-REM-nova-extension/issues",
 	"categories": [
 		"commands"
 	],
