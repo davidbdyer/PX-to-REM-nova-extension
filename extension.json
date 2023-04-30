@@ -2,7 +2,7 @@
 	"identifier": "me.daviddyer.PXtoREM",
 	"name": "PX to REM",
 	"organization": "David Dyer",
-	"description": "automatically toggle units between px and rem",
+	"description": "Automatically toggle units between PX and REM",
 	"version": "1.0",
 
 	"homepage": "daviddyer.me",
