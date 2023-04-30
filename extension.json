@@ -1,0 +1,33 @@
+{
+	"identifier": "me.daviddyer.PXtoREM",
+	"name": "PX to REM",
+	"organization": "David Dyer",
+	"description": "automatically toggle units between px and rem",
+	"version": "1.0",
+
+	"homepage": "daviddyer.me",
+	"repository": "https://github.com/davidbdyer/",
+	"bugs": "https://github.com/davidbdyer/",
+	"categories": [
+		"commands"
+	],
+	"main": "main.js",
+
+	"commands": {
+		"editor": [
+			{
+				"title": "PX ⇄ REM",
+				"command": "px-to-rem",
+				"shortcut": "ctrl-x",
+				"when": "editorHasFocus",
+				"filters": {
+					"syntaxes": [
+						"css",
+						"scss",
+						"sass"
+					]
+				}
+			}
+		]
+	}
+}
