@@ -10,6 +10,6 @@
 
  To run PX to REM:
 
- - Select a value "500px" for example and use "ctrl-x".
- - Select a value "500px" for example and select **PX ⇄ REM** the contextual menu.
+ - Select a PX value and use "ctrl-x".
+ - Select a PX value and select **PX ⇄ REM** the contextual menu.
  - Open the command palette and type `PX ⇄ REM`

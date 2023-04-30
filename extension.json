@@ -5,7 +5,7 @@
 	"description": "Automatically toggle units between PX and REM",
 	"version": "1.0",
 
-	"homepage": "daviddyer.me",
+	"homepage": "https://daviddyer.me",
 	"repository": "https://github.com/davidbdyer/PX-to-REM-nova-extension",
 	"bugs": "https://github.com/davidbdyer/PX-to-REM-nova-extension/issues",
 	"categories": [
