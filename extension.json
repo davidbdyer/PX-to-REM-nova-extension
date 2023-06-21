@@ -3,7 +3,7 @@
 	"name": "PX to REM",
 	"organization": "David Dyer",
 	"description": "Automatically toggle units between PX and REM",
-	"version": "1.0.1",
+	"version": "1.0.2",
 
 	"homepage": "https://daviddyer.me",
 	"repository": "https://github.com/davidbdyer/PX-to-REM-nova-extension",
@@ -24,7 +24,8 @@
 					"syntaxes": [
 						"css",
 						"scss",
-						"sass"
+						"sass",
+						"vue"
 					]
 				}
 			}
