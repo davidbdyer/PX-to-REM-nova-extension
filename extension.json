@@ -2,9 +2,9 @@
 	"identifier": "me.daviddyer.PXtoREM",
 	"name": "PX to REM",
 	"organization": "David Dyer",
-	"description": "Automatically toggle units between PX and REM",
-	"version": "1.0.2",
-
+	"description": "Toggle CSS units between PX and REM, or cycle through PX, REM and EM",
+	"license": "MIT",
+	"version": "1.1.0",
 	"homepage": "https://daviddyer.me",
 	"repository": "https://github.com/davidbdyer/PX-to-REM-nova-extension",
 	"bugs": "https://github.com/davidbdyer/PX-to-REM-nova-extension/issues",
@@ -12,7 +12,16 @@
 		"commands"
 	],
 	"main": "main.js",
-
+	"config": [
+		{
+			"key": "pxtorem.baseFontSize",
+			"title": "Base Font Size (px)",
+			"description": "Root font size used for conversion. 1rem equals this many pixels.",
+			"type": "number",
+			"default": 16,
+			"min": 1
+		}
+	],
 	"commands": {
 		"editor": [
 			{
@@ -25,7 +34,61 @@
 						"css",
 						"scss",
 						"sass",
-						"vue"
+						"less",
+						"vue",
+						"svelte",
+						"html"
+					]
+				}
+			},
+			{
+				"title": "PX ⇄ REM (Current Line)",
+				"command": "px-to-rem-line",
+				"shortcut": "shift-ctrl-x",
+				"when": "editorHasFocus",
+				"filters": {
+					"syntaxes": [
+						"css",
+						"scss",
+						"sass",
+						"less",
+						"vue",
+						"svelte",
+						"html"
+					]
+				}
+			},
+			{
+				"title": "PX → REM → EM",
+				"command": "px-rem-em-cycle",
+				"shortcut": "opt-ctrl-x",
+				"when": "editorHasFocus",
+				"filters": {
+					"syntaxes": [
+						"css",
+						"scss",
+						"sass",
+						"less",
+						"vue",
+						"svelte",
+						"html"
+					]
+				}
+			},
+			{
+				"title": "PX → REM → EM (Current Line)",
+				"command": "px-rem-em-cycle-line",
+				"shortcut": "opt-shift-ctrl-x",
+				"when": "editorHasFocus",
+				"filters": {
+					"syntaxes": [
+						"css",
+						"scss",
+						"sass",
+						"less",
+						"vue",
+						"svelte",
+						"html"
 					]
 				}
 			}
